@@ -1,8 +1,4 @@
-import { pairwise, take } from 'rxjs/operators';
-import { interval } from 'rxjs';
+import * as steps from './steps';
 
-//Returns: [0,1], [1,2], [2,3], [3,4], [4,5]
-interval(1000)
-  .pipe(take(6))
-  //.pipe(pairwise(), take(5))
+steps.$intervalObservable
   .subscribe(console.log);

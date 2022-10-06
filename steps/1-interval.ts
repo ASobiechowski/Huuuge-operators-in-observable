@@ -1,3 +1,3 @@
 import { interval } from "rxjs";
 
-export const $intervalStep = interval(1000)
+export const $intervalObservable = interval(1000)
