@@ -2,5 +2,5 @@ import * as steps from './steps';
 
 
 
-steps.$pairwiseObservable
+steps.$pairwiseStartWithObservable
   .subscribe(console.log);
