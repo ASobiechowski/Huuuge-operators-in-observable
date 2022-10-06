@@ -1,4 +1,5 @@
 import * as steps from './steps';
 
-steps.$intervalObservable
+const sub=steps.$pairwiseObservable
   .subscribe(console.log);
+sub.unsubscribe();
