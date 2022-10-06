@@ -2,5 +2,5 @@ import * as steps from './steps';
 
 
 
-steps.$intervalObservable
+steps.$pairwiseObservable
   .subscribe(console.log);
