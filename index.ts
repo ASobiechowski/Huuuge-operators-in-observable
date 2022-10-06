@@ -2,6 +2,5 @@ import * as steps from './steps';
 
 
 
-const $intervalObservable=steps.$intervalObservable
+steps.$pairwiseObservable
   .subscribe(console.log);
-  $intervalObservable.unsubscribe();
