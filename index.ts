@@ -1,5 +1,15 @@
 import * as steps from './steps';
 
-const sub=steps.$pairwiseObservable
+
+
+const $intervalObservable=steps.$intervalObservable
   .subscribe(console.log);
-sub.unsubscribe();
+  $intervalObservable.unsubscribe();
+
+  const $takeObservable=steps.$takeObservable
+  .subscribe(console.log);
+  $takeObservable.unsubscribe();
+
+const $pairwiseObservable=steps.$pairwiseObservable
+  .subscribe(console.log);
+  $pairwiseObservable.unsubscribe();
